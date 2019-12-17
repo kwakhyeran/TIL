@@ -29,7 +29,7 @@ $ git config --global user.name kwakhyeran
 
 ### 2. add 
 
-이력을 확정하기 위해서는 add  명령을 통하여 staging area 에 stage 시킨다.
+이력을햣 확정하기 위해서는 add  명령을 통하여 s햣taging area 에 stage 시킨다.
 
 ~~~ bash
 $ git add . # 현재 디렉토리를 stage
@@ -68,3 +68,30 @@ $ git commit -m 'Init'
 
 ~~~
 
+## 2. 원격저장소(remote repository) 활용
+
+> 원격 저장소는 다양한 서비스를 통해 제공 받을 수 있다. 
+>
+> github, gitlab, bitbucket
+
+### 1. 원격 저장소 등록
+
+~~~ bash
+$ git remote add origin https~~~
+~~~
+
+원격 저장소(remote)를 origin 이라는 이름으로 해당 url 로 설정한다.
+
+등록된 원격 저장소는 아래의 명령어로 확인할 수 있다.
+
+~~~ bash
+$ git remote -v
+~~~
+
+
+
+### 2. 원격 저장소 push
+
+
+
+origin 원격 저장소에 push 하게 되며 
